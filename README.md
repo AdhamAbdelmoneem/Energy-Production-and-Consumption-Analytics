@@ -13,6 +13,18 @@ The project conducts a detailed examination of worldwide energy usage patterns w
 * **Global Insights:** Analyzes consumption trends across different countries and energy types (Solar, Wind, Hydro, etc.).
 * **Dynamic Forecasting:** Integrated Linear Regression models that recalculate based on selected dimensions and filters.
 
+## 🔍 Visual Insights & Predictions
+
+Below are snapshots of the interactive dashboard and the predictive engine in action:
+
+### 1. Main Analytics Dashboard
+![Dashboard Overview](screenshots/dashboard_main.png)
+*view of global renewable energy consumption trends.*
+
+### 2. Predictive Curve (Linear Regression)
+![Prediction Curve](screenshots/prediction_curve.png)
+*Real-time forecasting implemented using TabPy showing the growth trajectory of renewables.*
+
 ## Repository Structure
 * `World_Energy_Analysis.twbx`: The complete Tableau Packaged Workbook (includes data and visualizations).
 * `Predictive_Model.py`: Clean Python script containing the Linear Regression logic used by TabPy.
